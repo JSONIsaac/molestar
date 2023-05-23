@@ -9,7 +9,7 @@ yesBtn.addEventListener('click', function () {
     timer: 3000, // Cerrar automáticamente después de 5 segundos
     showConfirmButton: false
   }).then(function() {
-    window.location.href = 'https://api.whatsapp.com/send?phone=50248791896';
+    window.location.href = `https://api.whatsapp.com/send?phone=50248791596&text=Si, QUIERO MIS GOMITAS JAJAJA😀 `;
   });
 });
 
