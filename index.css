@@ -3,7 +3,7 @@
 }
 
 .contenedor{
-    background: #BFCCB5;
+    background: #6A5495;
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -12,14 +12,15 @@
 p{
     font-size: xx-large;
     padding: 15%;
-    color: #7C96AB;
+    color: #54B435;
 }
 
 button{
     font-size: xx-large;
     padding: 0.75em;
-    background-color: #7C96AB;
-    color: #EDC6B1;
+    background-color: #ED5EDD;
+    color: #54B435;
+    text-transform: uppercase;
 }
 
 #yesBtn{

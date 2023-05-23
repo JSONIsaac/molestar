@@ -1,10 +1,18 @@
+
 const yesBtn = document.querySelector('#yesBtn');
 
-
-yesBtn.addEventListener('click',function () {
-    alert('GRACIAS, LE DEBO UNAS GOMITAS 🍬🤩')
-    window.close()
+yesBtn.addEventListener('click', function () {
+  Swal.fire({
+    title: '🍬🍬🍬🍬🍬🍬🍬',
+    text: 'LE DEBO UNAS GOMITAS 🍬🤩',
+    icon: '🍬',
+    timer: 5000, // Cerrar automáticamente después de 5 segundos
+    showConfirmButton: false
+  }).then(function() {
+    window.close();
+  });
 });
+
 
 const noBtn = document.querySelector('#noBtn');
 
@@ -16,3 +24,8 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
 });
 
+const cerrarVentana = () => {
+    setTimeout( ()=> {
+      window.close();
+    }, 5000);
+  }
