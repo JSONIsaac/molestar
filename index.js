@@ -2,7 +2,8 @@ const yesBtn = document.querySelector('#yesBtn');
 
 
 yesBtn.addEventListener('click',function () {
-    alert('GRACIAS LE DEBO UNAS GOMITAS 🍬🤩')
+    alert('GRACIAS, LE DEBO UNAS GOMITAS 🍬🤩')
+    window.close()
 });
 
 const noBtn = document.querySelector('#noBtn');
