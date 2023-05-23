@@ -9,7 +9,7 @@ yesBtn.addEventListener('click', function () {
     timer: 5000, // Cerrar automáticamente después de 5 segundos
     showConfirmButton: false
   }).then(function() {
-    window.close();
+    window.location.href = 'https://www.google.com';
   });
 });
 
