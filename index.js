@@ -6,10 +6,10 @@ yesBtn.addEventListener('click', function () {
     title: '🍬🍬🍬🍬🍬🍬🍬',
     text: 'LE DEBO UNAS GOMITAS 🍬🤩',
     icon: '🍬',
-    timer: 5000, // Cerrar automáticamente después de 5 segundos
+    timer: 3000, // Cerrar automáticamente después de 5 segundos
     showConfirmButton: false
   }).then(function() {
-    window.location.href = 'https://www.google.com';
+    window.location.href = 'https://api.whatsapp.com/send?phone=50248791896';
   });
 });
 
